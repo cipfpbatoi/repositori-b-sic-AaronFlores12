@@ -1,0 +1,52 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px dotted #fff;
+    background-color: #000;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.player1 {
+    background-color: red;
+}
+
+.player2 {
+    background-color: yellow;
+}
+
+.vacio {
+    background-color: white;
+    border-color: #000;
+}
+
+.columna-buttons {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.columna-buttons button {
+    padding: 10px 20px; 
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-inline: 25px;
+}
+
+.columna-buttons button:hover {
+    background-color: #45a049;
+}
+
